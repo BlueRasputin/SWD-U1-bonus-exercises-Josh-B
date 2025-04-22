@@ -89,12 +89,23 @@ for (let packageType in pantry) {
 	for (let foodItem of packageType) {
 		console.log(foodItem);
 	}
+	
 }
 // Run the program to see the results in the console. Nicely formatted, right? Notice how each array had a different number of items, but we handled that by taking the length of each array, as pantry[packageType] is the correct way to refer to the value of each property.
 
 console.log(""); // skip a line in console
 
 // TODO: Write a function that takes in an index number, prints "Items at index (x):" and then prints the element at that index of each array as you loop through the object. Use the escape character \t to indent each item for that index. If the array doesn't have anything at that index, it should be skipped without throwing an error. (Note: you don't need nested loops for this one.)
+
+function pantryIndex(obj, index) {
+	console.log(`Items at index (${index})`);
+
+	if (index )
+}
+
+
+	
+	 
 
 
 // TODO: Call the function above at 2 or 3 different index numbers and check to see the results are what you expect.
