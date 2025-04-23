@@ -151,7 +151,17 @@ yellowBellPepper.calculateTotal(5); // 5 peppers
 
 
 /**** TIME TO FLY SOLO ****/
-
+class Instrument {
+	constructor (name, category, soundsLike){
+	this.name = name;
+	this.category = category;
+	this.soundsLike = soundsLike;
+	
+	this.describe = function() {
+		console.log(`The ${this.name} is a ${this.category} instrument which sounds like ${this.soundsLike}`);
+		};
+	}
+}
 /*
 	TODO: Create a class called Instrument to represent musical instruments. Think piano, guitar, hammered dulcimer, flute, digeridoo, harmonica, French horn, etc... lots of possibilities! 
 
@@ -164,14 +174,14 @@ yellowBellPepper.calculateTotal(5); // 5 peppers
 
 // TODO: Once your class is complete, un-comment the lines below to test it out.
 
-// let violin = new Instrument("violin", "string", "a whirlwind romance -- and the inevitable heartbreak that follows after");
-// violin.describe();
+let violin = new Instrument("violin", "string", "a whirlwind romance -- and the inevitable heartbreak that follows after");
+violin.describe();
 
-// let tuba = new Instrument("tuba", "brass", "Mr. Snuffleupagus trying to dance");
-// tuba.describe();
+let tuba = new Instrument("tuba", "brass", "Mr. Snuffleupagus trying to dance");
+tuba.describe();
 
-// let ukelele = new Instrument("ukelele", "string", "Barney and the Teletubbies got drunk and filmed a Hawaiian special together");
-// ukelele.describe();
+let ukelele = new Instrument("ukelele", "string", "Barney and the Teletubbies got drunk and filmed a Hawaiian special together");
+ukelele.describe();
 
-// let bagpipe = new Instrument("bagpipe", "woodwind", "200 third-graders had a recorder recital next to a turbojet engine roaring at full throttle");
-// bagpipe.describe();
+let bagpipe = new Instrument("bagpipe", "woodwind", "200 third-graders had a recorder recital next to a turbojet engine roaring at full throttle");
+bagpipe.describe();
