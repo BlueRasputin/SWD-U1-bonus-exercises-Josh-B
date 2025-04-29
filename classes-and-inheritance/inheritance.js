@@ -214,6 +214,37 @@ console.log(cokeZero instanceof Juice);
 
 /** YOUR TURN **/
 
+class Milk extends Beverage {
+    constructor(name, ounces, source, isNonDairy = false, flavoring = null) {
+        super(name, ounces);
+        this.source = source;
+        this.isNonDairy = isNonDairy;
+        this.flavoring = flavoring;
+
+    }
+
+    describe() {
+    let recycledStatus;
+    if (this.recycled) {
+        recycledStatus = "had";
+    } else {
+        recycledStatus = "have";
+    }
+    let dairyStatus;
+    if (!this.isNonDairy) {
+        dairyStatusStatus = "Contains Dairy Products";
+    } else {
+        dairyStatus = "Dairy-free";
+    }
+}
+}
+ let chocMilk = new Milk("Chocolate Milk", 12, "cow", false, this.flavoring = "chocolate");
+ console.log(chocMilk);
+
+
+ let almondMilk = new Milk("Almond Milk", 16, "nut", true, this.flavoring = "vanilla");
+ console.log(almondMilk);
+
 /*
     TODO: Create a Milk class that is a child of Beverage
 
