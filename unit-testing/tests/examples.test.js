@@ -39,7 +39,9 @@ describe("The bucky object", () => {
     });
 
     // TODO: Write 2 tests for the value of nickname — it should be "Bucky" and NOT "The Winter Soldier"
-
+    test("should have a property called 'nickname' with the value of 'Bucky'", () => {
+        expect(examples.bucky.nickname).toEqual('Bucky');
+    });
 
     // Test that triggerWords includes "longing", "daybreak", and "homecoming"
     test("should have an array called 'triggerWords' that includes specific words", () => {
@@ -96,7 +98,7 @@ describe('The isAlphaOnly function', () => {
     });
 
     // TODO: Write a test for spaces (is allowed) using data from the test object cap
-
+    test('should')
 
     // NEGATIVE CASES
 
