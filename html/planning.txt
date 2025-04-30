@@ -1,0 +1,27 @@
+
+SWD UNIT 1 - HTML
+
+It's important to plan out your page before laying down code. 
+    - What kind of content, images, links, etc. will you need?
+    - In what order do you want to display the content?
+
+Here's a bit of an outline to get you started. Make it your own!
+
+HEADER    
+    
+
+ARTICLE
+    SECTION 1:
+    
+
+    SECTION 2: 
+    
+
+    SECTION 3:
+    
+
+FOOTER
+
+
+IMAGES
+
