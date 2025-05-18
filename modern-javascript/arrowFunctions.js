@@ -36,12 +36,22 @@ console.log(revStrAnonShort("yam"));
 // Multiple lines of code OK
 
 
+
+const random = arr => arr[Math.floor(Math.random() * arr.length)];
+
+
 // TODO: Create an array of several elements as mock data
+
+wordArr = [ "street", "camp", "bargain", "en passant", "Dauntless", "five", "boxcar" ];
+
+
 // Call the function and pass in the array
+console.log(random(wordArr));
 
-
+ console.log(random);
 // TODO: BONUS: Try to rewrite your function as a single-line short 
 // form arrow function
+
 
 
 // TODO: Test the short form function

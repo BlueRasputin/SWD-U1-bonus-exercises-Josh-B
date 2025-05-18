@@ -62,12 +62,25 @@ let fruits = [
 
 // TODO: Create a new array of just the names of each fruit and print it
 
+let fruitArr = [];
+
+for(i=0; i < fruits.length; i++) {
+    filteredName.push(fruits[i].name);
+}
+
+console.log(filteredName)
+
+
 
 // TODO: Iterate over the array and print a sentence for each fruit using all three of its properties
 
+fruits.forEach(fruit => console.log(`This ${fruit.name} is ${fruit.color} with a diameter of ${fruit.diameter} inches.`))
 
 // TODO: Create and print a new array of just the apples
 
+function applesOnly = fruits.filter((fruit) => fruit.name.includes("apple"));
+
+console.log(applesOnly);
 
 // TODO: Calculate the total length of all fruit if they were set down side by side in a line and print the result
 

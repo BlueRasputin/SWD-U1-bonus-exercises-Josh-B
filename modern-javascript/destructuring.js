@@ -50,20 +50,33 @@ console.log(website);
 
 // TODO: Create an array with several elements
 
+let wordArr =  [ "street", "camp", "bargain" ];
 
 // TODO: Destructure the array and assign variables
 // to each element
 
+let [ road, ground, bin ] = wordArr;
+
 
 // TODO: Print the values of the new variables
 
+console.log(`${ground}, ${road}, ${bin}`);
+
+console.log(`${ground}`);
 
 // TODO: Create an object with several key/value pairs
 
 
+let object = {
+    Name: "John Smith",
+    email: "JohnS@gmail.com",
+    phone: "(816) 555 - 5555"
+    
+}
+
 // TODO: Destructure the object and assign variables
 // to each property
-
+let {}
 
 // TODO: Print the values of the new variables
 
